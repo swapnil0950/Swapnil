@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open("https://github.com/swapnil0950/Swapnil/blob/main/Decision_Tree.pkl",'rb'))
+model = pickle.load(open("C:/Users/DELL/Desktop/StreamApp/Decision_Tree.pkl",'rb'))
 
 def main():
     st.title("Liver Disease Prediction")
